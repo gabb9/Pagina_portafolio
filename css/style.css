@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    font-family: "Source Sans Pro";
+    
+}
+body{
+    margin:0;
+    margin-top: 50px;
+ 
+    
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgb(243, 227, 224);
+    
+
+}
+
+a{
+    color: black
+    
+}
+header * {
+    display: inline;
+    height: 70px;
+
+  
+}
+
+#ul {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    line-height: 40px;
+    text-align:center;
+    width: 100%;
+    
+    
+    
+    
+}
+
+header li {
+    
+    margin-left: 70px;
+    margin-right: 70px;
+    display: inline-block;
+    font-size: 1em;
+}
+   
+
+
+
+#inicio .foto_perfil {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    
+}
+
+
+
+section {
+    height: 100vh;
+    border: 1px solid rgb(250, 245, 245);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no- repeat;
+    background-attachment: fixed;
+}
+
+
+#inicio {
+    background: url(https://i.pinimg.com/1200x/51/95/9d/51959d74a2ea25bdaeace18723062e22.jpg);
+    background-size: 100% 100%;
+   
+}
+
+#about_me {
+    background: url(https://i.pinimg.com/1200x/51/95/9d/51959d74a2ea25bdaeace18723062e22.jpg);
+    background-size: 100% 100%;
+}
+
+#skills{
+    background: url(https://i.pinimg.com/1200x/51/95/9d/51959d74a2ea25bdaeace18723062e22.jpg);
+    background-size: 100% 100%;
+}
+
+#contact_me {
+    background: url(https://i.pinimg.com/1200x/51/95/9d/51959d74a2ea25bdaeace18723062e22.jpg);
+    background-size: 100% 100%;
+}
+
+#inicio h1 {
+    font-size: 5em;
+    color: rgb(7, 7, 7);
+   
+}
+
+#inicio h2 {
+    font-size: 3m;
+    font-style: oblique;
+}
+
+#inicio h3 {
+    font-size: 3m;
+    font-style: oblique;
+}
+
+#about_me h2{
+    font-size: 7em;
+    color: aliceblue;
+}
+
+#about_me div{
+    height: 800px;
+
+}
+
+.about_me table{
+    border-collapse: collapse;
+    width: 100%;
+    padding: 8px;
+}
+.about_me th{
+    border: 1px white ;
+    padding: 10px;
+    height: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 24px;
+
+
+}
+
+.about_me td{
+    border: 2px white;
+    padding: 10px;
+    height: 0px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-size: 24px;
+    
+
+}
+
+#skills h2{
+    font-size: 5em;
+    color: aliceblue;
+    
+    
+}
+
+#skills div{
+    height: 800px;
+    width: 1300px;
+    
+
+}
+
+#skills h5{
+    text-align: left;
+    font-size: 20px;
+    color:black;
+
+   
+}
+
+#skills p,ul{
+    text-align: left;
+    font-size: 20;
+    
+}
+
+#contact_me h2{
+    text-align: center;
+    font-size: 5em;
+    color: aliceblue;
+
+}
+
+#contact_me div{
+    height: 300px;
+    width: 1300px;
+
+}
+
+#contact_me ul{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+#contact_me div{
+    height: 400px;
+    width: 800px;
+
+}
+
+
+
+
